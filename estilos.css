@@ -1,0 +1,125 @@
+*{
+	padding: 0;
+	margin: 0;
+	border:0;
+	font-family: 'Lato';
+}
+.contenedor{
+    background-image: url(img/banner.jpeg);
+    height: 560px;
+    background-position: 50% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.contenedor_fondo{
+	height: -webkit-fill-available;
+    background: linear-gradient(to left,rgb(46,191,145,0.8),rgb(131,96,195,0.8));
+}
+
+/*nav{
+	float: right;
+	margin-left: 10px;
+}*/
+nav{
+    position: relative;
+    left: 13%;
+    display: inline-block;
+    text-transform: uppercase;
+}
+nav li{
+	display: inline-block;
+	margin: 10px;
+	position: relative;
+	top: 77px;
+	font-size: 19px;
+	text-transform: uppercase;
+}
+
+nav a[href]{
+	text-decoration: none;
+	color: white;
+}
+
+nav li:first-child a{
+	color: #fff77c;
+	border-top: 4px solid #fff77c;
+	padding-top: 15px;
+}
+
+figure{
+	width: 180px;
+	float: left;
+}
+
+figure img{
+	position: relative;
+	left: 86px;
+}
+
+.Agencia{
+    position: relative;
+	top: 21%;
+    right: 7%;
+}
+
+.Agencia>h2{
+	font-size: 108px;
+	color: white;
+}
+
+.Agencia li{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+}
+
+.Agencia li+li{
+	left: 10px;
+
+}
+
+nav ul li a:nth-child(2){
+	background: none;
+	color:#fff77c;
+}
+
+.Agencia li a{
+	text-transform: uppercase;
+	background: #fff77c;
+	padding: 20px;
+	border: 2px solid ;
+	transition:all 1s;
+}
+
+.Agencia li a:hover{
+	background: none;
+	color:#fff77c;
+}
+
+
+div>h2{
+	text-align: center;
+}
+
+.grisiento{
+	width: 100%;
+	height:400px;
+	background: #ECEFF1;
+}
+
+.Cuadros{
+	height: 200px;
+	width: 200px;
+	margin:10px 25px;
+}
+
+div[class="Cuadros"]{
+	display: inline-block;
+	position: relative;
+	left: 25%;
+	background: white;
+}
+
