@@ -1,4 +1,5 @@
 *{
+	overflow-y: none;
 	padding: 0;
 	margin: 0;
 	border:0;
@@ -49,9 +50,16 @@ figure{
 	float: left;
 }
 
+
 figure img{
 	position: relative;
 	left: 86px;
+}
+
+figure img:hover{
+-webkit-transform: rotateY(180deg);
+transform: rotateY(180deg);
+transition-timing-function: ease-in-out;
 }
 
 div [class="Agencia"]  p{
@@ -75,24 +83,24 @@ div [class="Agencia"]  p{
     display: inline-block;
     position: relative;
     top: 68px;
-    font-size: 20px;
+    left: 4%;
 }
 
 .Agencia li+li{
-	left: 10%;
+	left: 8%;
 
 }
 
 .Agencia li a{
 	text-transform: uppercase;
 	background: #fff77c;
-	padding: 20px;
-	border: 2px solid ;
+	padding: 16px 33px;
+	border: 2px solid yellow;
 	transition:all 1s;
-	border-radius: 33px;
+	border-radius: 41px;
 	text-decoration: none;
 }
-
+/*profe yo entendi por la foto que solo el boton de la izquierda desaparecia*/
 .Agencia li a[id="Servicios"]:hover{
 	background: none;
 	color:#fff77c;
@@ -100,6 +108,20 @@ div [class="Agencia"]  p{
 
 #Contactar{
 	color:rgb(131,96,195);
+	text-transform: uppercase;
+    background: #fff77c;
+    padding: 16px 33px;
+    border: 2px solid yellow;
+    border-radius: 41px;
+    text-decoration: none;
+}
+
+article li{
+    position: relative;
+    left: 84%;
+    text-decoration: none;
+    display: inline-block;
+    top: 20px;
 }
 div[class="grisiento"]>h2{
     text-align: center;
@@ -149,12 +171,123 @@ div[class="grisiento"]>h2{
 }
 
 #central{
-	height: 200px;
+	height: 180px;
 }
 
 article>h1{
     font-size: 47px;
     position: relative;
-    top: 40%;
+    top: 31%;
     left: 8%;
+}
+
+div[class="grisiento_central"]>h2 {
+    text-align: center;
+    position: relative;
+    top: 45px;
+    text-transform: uppercase;
+ }
+
+.grisiento_central{
+	width: 100%;
+	height:373px;
+	background: #ECEFF1;
+}
+
+#Nuestros_Clientes{
+	width: 90%;
+	margin:auto;
+}
+#Nuestros_Clientes_imagenes{
+    margin: 63px -24px;
+
+}
+
+#Nuestros_Clientes_imagenes img{
+	width: 122px;
+	filter: grayscale(100%);
+	margin-left: 71px;
+}
+
+#Nuestros_Clientes_imagenes img:nth-child(1){
+	width: 180px;
+	filter: contrast(5%);
+}
+
+#lento{
+	transition-timing-function: ease-in-out;
+}
+#Nuestros_Clientes_imagenes img:nth-child(2){
+	width: 180px;
+	position: relative;
+    top: 34px;
+
+}
+
+#Nuestros_Clientes_imagenes img:nth-child(2):hover{
+	transform: skew(-20deg);
+}
+#rapido{
+transition-timing-function: ease;
+}
+
+#Nuestros_Clientes_imagenes img:nth-child(3):hover{
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px lightblue;
+	-webkit-box-shadow: 0px 0px 15px 15px lightblue;
+	transform: rotateZ(360deg);
+	-webkit-transform: rotateZ(360deg);
+	transition-duration: 1.5s;
+
+}
+#Nuestros_Clientes_imagenes img:nth-child(4){
+	width: 155px;
+}
+
+#Nuestros_Clientes_imagenes img:nth-child(4):hover{
+	filter:none;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px lightblue;
+	-webkit-box-shadow: 0px 0px 15px 15px lightblue;
+	transform: rotateY(360deg);
+	-webkit-transform: rotateY(360deg);
+	transition-duration: 1.5s;
+	/*bugeado*/
+}
+#Nuestros_Clientes_imagenes img:nth-child(5){
+    width: 153px;
+    position: relative;
+    top: 9px;
+
+}
+
+#Nuestros_Clientes_imagenes img:hover{
+	filter:none;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px lightblue;
+	-webkit-box-shadow: 0px 0px 15px 15px lightblue;
+	transform: rotateX(360deg);
+	-webkit-transform: rotateX(360deg);
+	transition-duration: 1.5s;
+}
+
+footer div[class="contenedor_fondo"]{
+	height: 300px;
+	text-align: center;
+}
+
+footer div[class="contenedor_fondo"] img{
+	width: 180px;
+	border-bottom: 4px solid white;
+	padding-bottom: 20px;
+}
+
+footer div[class="contenedor_fondo"] img:hover{
+	transform: scale(1.5);
+	transition-timing-function: ease-in-out;
+	transition-duration: 1.5s
+
 }
