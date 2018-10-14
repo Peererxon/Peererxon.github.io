@@ -5,7 +5,7 @@
 	font-family: 'Lato';
 }
 .contenedor{
-    background-image: url(img/banner.jpeg);
+    background-image: url(banner.jpeg);
     height: 560px;
     background-position: 50% 30%;
     background-size: cover;
