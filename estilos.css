@@ -58,6 +58,10 @@ figure img{
 	left: 86px;
 }
 
+div [class="Agencia"]  p{
+    position: relative;
+    top: 35px;
+}
 .Agencia{
     position: relative;
 	top: 21%;
@@ -72,12 +76,12 @@ figure img{
 .Agencia li{
     display: inline-block;
     position: relative;
-    top: 20px;
+    top: 68px;
     font-size: 20px;
 }
 
 .Agencia li+li{
-	left: 10px;
+	left: 10%;
 
 }
 
@@ -92,6 +96,7 @@ nav ul li a:nth-child(2){
 	padding: 20px;
 	border: 2px solid ;
 	transition:all 1s;
+	border-radius: 33px;
 }
 
 .Agencia li a:hover{
@@ -100,8 +105,11 @@ nav ul li a:nth-child(2){
 }
 
 
-div>h2{
-	text-align: center;
+div h2{
+    text-align: center;
+    position: relative;
+    top: 45px;
+    text-transform: uppercase;
 }
 
 .grisiento{
@@ -111,15 +119,17 @@ div>h2{
 }
 
 .Cuadros{
-	height: 200px;
-	width: 200px;
-	margin:10px 25px;
+    height: 288px;
+    width: 262px;
+    margin: 10px 22px;
+    box-shadow: -2px 0px 3px rgb(144,164,174);
 }
 
 div[class="Cuadros"]{
-	display: inline-block;
-	position: relative;
-	left: 25%;
-	background: white;
+    display: inline-block;
+    position: relative;
+    left: 7%;
+    top: 54px;
+    background: white;
 }
 
