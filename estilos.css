@@ -152,6 +152,7 @@ div[class="grisiento"]>h2{
     margin: 10px 22px;
     box-shadow: -2px 0px 3px rgb(144,164,174);
     text-align: center;
+    border-radius: 10px;
 }
 .Cuadros:hover{
 	background: linear-gradient(to left, red,blue);
@@ -201,7 +202,7 @@ div[class="grisiento_central"]>h2 {
 .grisiento_central{
 	width: 100%;
 	height:373px;
-	background: #ECEFF1;
+	background: white;
 }
 
 #Nuestros_Clientes{
