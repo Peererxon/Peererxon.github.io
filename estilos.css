@@ -4,12 +4,18 @@
 	border:0;
 	font-family: 'Lato';
 }
-.contenedor{
-    background-image: url(banner.jpeg);
-    height: 560px;
-    background-position: 50% 30%;
+
+body{
+	background-image: url(banner.jpeg);
+	 background-position: 50% 30%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contenedor{
+    
+    height: 560px;
+   
     text-align: center;
 }
 
