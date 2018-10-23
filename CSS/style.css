@@ -6,7 +6,7 @@
 
 }
 
-@media (min-width: 320px){
+@media (min-width: 320px) and (max-width:767px ){
 	.pagina{
 		margin-left: 2%;
 	}
@@ -198,43 +198,33 @@
 	}
 }
 
-/*@media print{
+@media print{
 	.pagina{
 		margin-left: 2%;
 	}
 	.superior{
 		background: black;
-		width: 11%;
+		width: 95%;
 		height: 45px;
-		display: inline-block;
-		margin-top: 5%;
+		margin-top: 1%;
 	}
 	.superior+div{
-		background: black;
-		width: 79.3%;
-		height: 45px;
-		display: inline-block;
-		position: relative;
-		left: 4%;
-		margin-top: 5%;
+	 display: none;
 	}
 
 	#verde{
 		background: black;
-		margin-left: 2.25%;
 	}
 
 	#morado{
 		background: black;
-		width: 30%;
-		display: inline-block;
 	}
 
 	.centro{
 
 		width: 95%;
-		height: 130px;
-		background: #158af1;
+		height: 180px;
+		background: black;
 		margin-top: 3%;
 
 	}
@@ -243,30 +233,18 @@
 	 	font-size: 100px;
 		color: white;
 		text-align: center;
+		position: relative;
+    	top: 24px;
 	}
 
 	.inferior{
 		margin-top: 3%;
-		width: 30%;
-		height: 230px;
+		width: 95%;
+		height: 180px;
 		background: black;
-		display: inline-block;
 
 	}
-
-	div [id]{
-		margin-left: 2.25%;
-	}
-	div [id] p{
-		position: relative;
-		top: 51px;
-	}
-
-	div[class="inferior"] p:first-child{
-		position: relative;
-		top: 51px;
-	}
-}*/
+}
 
 @media (landscape 1200px){
 	body{
