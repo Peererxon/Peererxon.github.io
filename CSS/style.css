@@ -1,0 +1,280 @@
+*{
+	padding: 0;
+	margin: 0;
+	border:0;
+	text-decoration:none;
+
+}
+
+@media (min-width: 320px){
+	.pagina{
+		margin-left: 2%;
+	}
+	.superior{
+		background: lightblue;
+		width: 95%;
+		height: 45px;
+		margin-top: 1%;
+	}
+	.superior+div{
+	 display: none;
+	}
+
+	#verde{
+		background: green;
+	}
+
+	#morado{
+		background: purple;
+	}
+
+	.centro{
+
+		width: 95%;
+		height: 180px;
+		background: #158af1;
+		margin-top: 3%;
+
+	}
+
+	p{
+	 	font-size: 100px;
+		color: white;
+		text-align: center;
+		position: relative;
+    	top: 24px;
+	}
+
+	.inferior{
+		margin-top: 3%;
+		width: 95%;
+		height: 180px;
+		background: orange;
+
+	}
+
+}
+
+
+@media (min-width: 768px){
+
+	.superior{
+		background: lightblue;
+		width: 11%;
+		height: 45px;
+		display: inline-block;
+		margin-top: 5%;
+	}
+	.superior+div{
+		background: lightblue;
+		width: 79.3%;
+		height: 45px;
+		display: inline-block;
+		position: relative;
+		left: 4%;
+		margin-top: 5%;
+	}
+
+	#verde{
+		background: green;
+		margin-left: 10px;
+	}
+
+	#morado{
+		background: purple;
+		display: block;
+		width: 95%;
+		margin-bottom: 1%;
+	}
+
+	.centro{
+
+		width: 95%;
+		height: 210px;
+		background: #158af1;
+		margin-top: 3%;
+
+	}
+
+	p{
+	 	font-size: 100px;
+		color: white;
+		text-align: center;
+	}
+
+	.inferior{
+		margin-top: 3%;
+		width: 46.5%;
+		height: 210px;
+		background: orange;
+		display: inline-block;
+
+	}
+
+	div [id] p{
+		position: relative;
+		top: 51px;
+	}
+
+	div[class="inferior"] p:first-child{
+		position: relative;
+		top: 51px;
+	}
+	div[id="morado"] p:first-child{
+		position: relative;
+		top: 62px;
+	}
+}
+
+
+
+@media (min-width: 1024px){
+	.pagina{
+		margin-left: 2%;
+	}
+	.superior{
+		background: lightblue;
+		width: 11%;
+		height: 45px;
+		display: inline-block;
+		margin-top: 5%;
+	}
+	.superior+div{
+		background: lightblue;
+		width: 79.3%;
+		height: 45px;
+		display: inline-block;
+		position: relative;
+		left: 4%;
+		margin-top: 5%;
+	}
+
+	#verde{
+		background: green;
+		margin-left: 2.25%;
+	}
+
+	#morado{
+		background: purple;
+		width: 30%;
+		display: inline-block;
+	}
+
+	.centro{
+
+		width: 95%;
+		height: 130px;
+		background: #158af1;
+		margin-top: 3%;
+
+	}
+
+	p{
+	 	font-size: 100px;
+		color: white;
+		text-align: center;
+	}
+
+	.inferior{
+		margin-top: 3%;
+		width: 30%;
+		height: 230px;
+		background: orange;
+		display: inline-block;
+
+	}
+
+	div [id]{
+		margin-left: 2.25%;
+	}
+	div [id] p{
+		position: relative;
+		top: 51px;
+	}
+
+	div[class="inferior"] p:first-child{
+		position: relative;
+		top: 51px;
+	}
+}
+
+/*@media print{
+	.pagina{
+		margin-left: 2%;
+	}
+	.superior{
+		background: black;
+		width: 11%;
+		height: 45px;
+		display: inline-block;
+		margin-top: 5%;
+	}
+	.superior+div{
+		background: black;
+		width: 79.3%;
+		height: 45px;
+		display: inline-block;
+		position: relative;
+		left: 4%;
+		margin-top: 5%;
+	}
+
+	#verde{
+		background: black;
+		margin-left: 2.25%;
+	}
+
+	#morado{
+		background: black;
+		width: 30%;
+		display: inline-block;
+	}
+
+	.centro{
+
+		width: 95%;
+		height: 130px;
+		background: #158af1;
+		margin-top: 3%;
+
+	}
+
+	p{
+	 	font-size: 100px;
+		color: white;
+		text-align: center;
+	}
+
+	.inferior{
+		margin-top: 3%;
+		width: 30%;
+		height: 230px;
+		background: black;
+		display: inline-block;
+
+	}
+
+	div [id]{
+		margin-left: 2.25%;
+	}
+	div [id] p{
+		position: relative;
+		top: 51px;
+	}
+
+	div[class="inferior"] p:first-child{
+		position: relative;
+		top: 51px;
+	}
+}*/
+
+@media (landscape 1200px){
+	body{
+		background: blue;
+	}
+
+	div{
+		background: white;
+		color: black;
+	}
+}
