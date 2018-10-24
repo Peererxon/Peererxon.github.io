@@ -246,13 +246,76 @@
 	}
 }
 
-@media (landscape 1200px){
-	body{
-		background: blue;
+@media(min-width: 1200px) and (orientation: landscape){
+		body{
+			background: blue;
+		}
+
+		.pagina{
+		margin-left: 2%;
+	}
+	.superior{
+		background: white;
+		width: 11%;
+		height: 45px;
+		display: inline-block;
+		margin-top: 5%;
+	}
+	.superior+div{
+		background: white;
+		width: 79.3%;
+		height: 45px;
+		display: inline-block;
+		position: relative;
+		left: 4%;
+		margin-top: 5%;
 	}
 
-	div{
+	#verde{
 		background: white;
+		margin-left: 2.25%;
+	}
+
+	#morado{
+		background: white;
+		width: 30%;
+		display: inline-block;
+	}
+
+	.centro{
+
+		width: 95%;
+		height: 130px;
+		background: white;
+		margin-top: 3%;
+
+	}
+
+	p{
+	 	font-size: 100px;
 		color: black;
+		text-align: center;
+	}
+
+	.inferior{
+		margin-top: 3%;
+		width: 30%;
+		height: 230px;
+		background: white;
+		display: inline-block;
+
+	}
+
+	div [id]{
+		margin-left: 2.25%;
+	}
+	div [id] p{
+		position: relative;
+		top: 51px;
+	}
+
+	div[class="inferior"] p:first-child{
+		position: relative;
+		top: 51px;
 	}
 }
